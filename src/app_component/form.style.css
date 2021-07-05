@@ -5,13 +5,17 @@ form {
 form input[name="city"],
 form input[name="country"] {
   background-color: transparent;
-  color: white;
+  color: White;
   border: 0;
-  border-bottom: 3px solid whitesmoke;
+  border-bottom: 2px solid White;
   border-radius: 0;
 }
 
 form input:focus {
-  background-color: transparent;
+  background-color: transparent !important;
   box-shadow: none !important;
+}
+
+form input .container::-webkit-input-placeholder {
+  color: white !important;
 }
